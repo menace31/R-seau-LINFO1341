@@ -6,20 +6,20 @@ scenario: 3-people call
 Person 1                  |    Person 2                   |    Person 3                   | Packets
 --------------------------|-------------------------------|-------------------------------|-------------
 New Meeting               |                               |                               |
-Join with computer audio  |                               |                               |
+Join with computer audio  |                               |                               | Packet 1
                           | Join Meeting                  |                               |
-                          | Join with computer audio      |                               | Packet 1
-                          | Type message in chat          |                               | Packet 2
-Stop video (camera)       |                               |                               | Packet 3
+                          | Join with computer audio      |                               | Packet 2
+                          | Type message in chat          |                               | Packet 3
+Stop video (camera)       |                               |                               | Packet 4
 Sharing Screen            |                               |                               |
-Stop sharing              |                               |                               | Packet 4
+Stop sharing              |                               |                               | Packet 5
                           | Mute                          |                               |
-                          | Unmute                        |                               | Packet 5
-Use Microphone            |                               |                               | Packet 6
+                          | Unmute                        |                               | Packet 6
+Use Microphone            |                               |                               | Packet 7
                           |                               | Join Meeting                  |
-                          |                               | Join with computer audio      | Packet 7                    
-                          |                               | Type message in chat          | Packet 8
-                          |                               | Leave Meeting                 | Packet 9
-                          | Leave Meeting                 |                               | Packet 10
-End Meeting for all       |                               |                               | Packet 11
+                          |                               | Join with computer audio      | Packet 8                    
+                          |                               | Type message in chat          | Packet 9
+                          |                               | Leave Meeting                 | Packet 10
+                          | Leave Meeting                 |                               | Packet 11
+End Meeting for all       |                               |                               | Packet 12
 
